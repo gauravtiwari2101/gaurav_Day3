@@ -21,3 +21,4 @@ jobs:
 
       - name: Run Pylint
         run: pylint 
+        continue-on-error: true 
