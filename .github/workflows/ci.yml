@@ -15,3 +15,9 @@ jobs:
 
       - name: Run Tests
         run: pytest
+
+      - name: Install Pylint
+        run: pip install pylint
+
+      - name: Run Pylint
+        run: pylint 
